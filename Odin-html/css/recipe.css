@@ -1,0 +1,67 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+
+}
+
+#lasgna {
+    text-align: center;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.description {
+    display: flex;
+    width: 65%;
+}
+
+#food-desc{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+
+}
+
+ul li {
+    list-style: circle;
+}
+
+.instruction-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+h1 {
+margin-top: 20px;
+text-decoration: underline;
+
+}
+
+ol li {
+    list-style-type: lower-roman;
+    margin-bottom: 5px;
+  
+}
+
+ol{
+      margin-top: 16px;
+}
+
+.back-button {
+    margin-top: 20px;
+}
+
