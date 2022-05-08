@@ -32,4 +32,14 @@ section ol {
 ol li {
     list-style-type: square;
     font-size: 1.3rem;
+    line-height: 2rem;
+
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a:hover {
+    color: tomato;
 }
